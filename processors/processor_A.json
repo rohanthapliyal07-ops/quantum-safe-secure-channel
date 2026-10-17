@@ -1,0 +1,40 @@
+{
+  "processor_id": "A",
+  "name": "5-qubit linear quantum processor",
+  "num_qubits": 5,
+  "coupling_map": [
+    [
+      0,
+      1
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      3,
+      4
+    ]
+  ],
+  "basis_gates": [
+    "rz",
+    "sx",
+    "x",
+    "cx"
+  ],
+  "noise": {
+    "single_qubit_depolarizing_probability": 0.001,
+    "two_qubit_depolarizing_probability": 0.005,
+    "readout_error_probability": 0.01
+  },
+  "simulation": {
+    "backend": "qiskit_aer.AerSimulator",
+    "optimization_level": 1,
+    "seed_transpiler": 42,
+    "shots": 4096
+  }
+}

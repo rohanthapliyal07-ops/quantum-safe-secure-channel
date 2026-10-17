@@ -1,0 +1,12 @@
+{
+  "platform_id": "A",
+  "name": "Resource-rich baseline",
+  "online_round": true,
+  "architecture": "x86-64",
+  "cpu_limit": "1 logical CPU core",
+  "hardware_acceleration": "disabled / not used",
+  "ram_limit_mb": null,
+  "ram_limit_status": "host default; record available RAM and environment for each run",
+  "benchmark_scope": "classical CPU execution of ML-KEM, ML-DSA, HKDF, and AES-256-GCM",
+  "measurement_note": "Use same machine and software versions as Platform B where possible. Pin process to one core."
+}

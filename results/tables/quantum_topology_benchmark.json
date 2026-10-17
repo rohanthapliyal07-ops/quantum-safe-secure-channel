@@ -1,0 +1,28 @@
+[
+  {
+    "processor": "A",
+    "processor_name": "5-qubit linear quantum processor",
+    "num_qubits": 5,
+    "logical_cx_count": 4,
+    "transpiled_circuit_depth": 8,
+    "transpiled_gate_count": 13,
+    "transpiled_cx_count": 4,
+    "transpiled_swap_count": 0,
+    "transpile_time_ms": 37.645,
+    "simulation_shots": 1024,
+    "note": "Topology-sensitive compilation experiment; statevector simulation is noiseless and does not represent physical-hardware performance."
+  },
+  {
+    "processor": "B",
+    "processor_name": "9-qubit heavy-hex-inspired quantum processor",
+    "num_qubits": 9,
+    "logical_cx_count": 4,
+    "transpiled_circuit_depth": 8,
+    "transpiled_gate_count": 13,
+    "transpiled_cx_count": 4,
+    "transpiled_swap_count": 0,
+    "transpile_time_ms": 26.392,
+    "simulation_shots": 1024,
+    "note": "Topology-sensitive compilation experiment; statevector simulation is noiseless and does not represent physical-hardware performance."
+  }
+]

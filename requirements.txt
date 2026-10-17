@@ -1,0 +1,10 @@
+# Python 3.10+ required. liboqs-python builds/downloads native liboqs on first import
+# when no system installation is found; see README for CMake/compiler prerequisites.
+cryptography>=42.0,<47
+liboqs-python>=0.12.0,<0.17
+matplotlib>=3.8,<4
+psutil>=5.9,<8
+
+# Quantum circuit transpilation and noisy local simulation
+qiskit>=1.2,<3
+qiskit-aer>=0.15,<1

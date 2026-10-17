@@ -1,0 +1,72 @@
+{
+  "processor_id": "B",
+  "name": "9-qubit heavy-hex-inspired quantum processor",
+  "num_qubits": 9,
+  "coupling_map": [
+    [
+      0,
+      1
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      1,
+      6
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      2,
+      6
+    ],
+    [
+      2,
+      5
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      4,
+      5
+    ],
+    [
+      5,
+      6
+    ],
+    [
+      6,
+      7
+    ],
+    [
+      6,
+      8
+    ],
+    [
+      8,
+      0
+    ]
+  ],
+  "basis_gates": [
+    "rz",
+    "sx",
+    "x",
+    "cx"
+  ],
+  "noise": {
+    "single_qubit_depolarizing_probability": 0.001,
+    "two_qubit_depolarizing_probability": 0.005,
+    "readout_error_probability": 0.01
+  },
+  "simulation": {
+    "backend": "qiskit_aer.AerSimulator",
+    "optimization_level": 1,
+    "seed_transpiler": 42,
+    "shots": 4096
+  }
+}

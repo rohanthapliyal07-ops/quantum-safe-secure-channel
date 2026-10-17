@@ -1,0 +1,12 @@
+{
+  "platform_id": "B",
+  "name": "Constrained backend server",
+  "online_round": true,
+  "architecture": "x86-64 (same architecture as Platform A)",
+  "cpu_limit": "1 logical CPU core",
+  "hardware_acceleration": "disabled / not used",
+  "ram_limit_mb": 512,
+  "ram_limit_status": "project default proposal; change only if organizer instructions specify another cap",
+  "benchmark_scope": "same classical PQC workload as Platform A, under a RAM cap",
+  "measurement_note": "Prefer Linux cgroups/systemd-run or a container memory limit. Record actual enforcement method and limit."
+}
